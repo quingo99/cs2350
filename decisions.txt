@@ -1,0 +1,50 @@
+Common Style Decisions for Website
+
+color scheme:
+Green: 
+#234D4D: Dark
+#273d3d: Darker
+#61B8B8: light
+#97adad: grey
+blue:
+light: #eaf0f6
+lighter: #B7D4F0
+
+background header color/image: 
+#eaf0f6
+book_flying.png
+
+background color:
+white
+
+font style: 
+Arial, Helvetica, sans-serif
+
+text color:
+#1b3333
+
+link style: 
+underline;
+color: #97adad
+
+link style on hover:
+background-color: #B7D4F0
+remove underline
+
+nav link style:
+color: #234D4D
+none underline
+
+nav link style on hover:
+color:#61B8B8
+background-color: #B7D4F0
+
+h1-h6 style:
+Default size
+
+margins:
+0
+
+padding:
+top&bottom:0 
+left %right:2%

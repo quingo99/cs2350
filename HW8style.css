@@ -1,0 +1,61 @@
+body{
+    background-image: url("image/star.jpg");
+    
+}
+section{
+    border: solid 4px #694762;
+    background-color: #EC88D7;
+    margin: 20px auto;
+    box-shadow: 3px 3px 4px #c7abc1;
+    border-radius: 8px;
+    color: #9b2525;
+}
+label{
+    display: block;
+    text-align: center;
+}
+input[type="text"] {
+    display: block;
+    margin: 5px auto;
+    border: solid 2px #3b1c1c;
+    border-radius: 4px;
+    background-color: #e4b8da;
+    color: #854343;
+}
+.money{
+    background-image: url("image/money.jpg");
+    font-size: large;
+    font-weight: bold;
+    color: #3C0606;
+
+
+}
+.sleepBackground{
+    background-color: #72ddfd ;
+    height: 200px;
+    
+}
+.sleeping{
+    margin-left: 170px;
+   
+}
+span{
+    font-style: italic;
+}
+@media only screen and (min-width: 700px){
+    section{
+        width: 600px;
+    }
+    .sleeping{
+        margin-left: 500px;
+    }
+
+}
+@media only screen and (min-width: 1000px){
+    section{
+        width: 950px;
+    }
+    .sleeping{
+        margin-left: 900px;
+    }
+}

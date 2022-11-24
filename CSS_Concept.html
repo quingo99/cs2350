@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset ="utf-8">
+        <title>CSS Tutorial</title>
+        <meta name ="description" content="This page is talked about CSS Box
+         model, style on hover, color contrast, position, shadow">
+        <meta name ="keyword" content="CSS tutorial, box modex, hover, color, 
+        position, shadow">
+        <meta name = "author" content = "Qui Ngo">
+        <meta name = "viewport" content= 
+        "width = device-width, initial-scale = 1.0">
+        <link rel="icon" type="image/png" href="image/icon.png">
+        <link rel="stylesheet" type="text/css" href="style_HW3.css">
+        <link rel="stylesheet" type="text/css" href="header_style.css">
+    </head>
+    <body>
+        <header>
+            <p>Welcome to My Website</p>
+        </header>
+        <nav>
+            <ul>
+              <li>
+                <div class ="dropdown">
+                  <div class="button">
+                    <p>Menu</p>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                  </div>
+                <div class ="dropdown-content">
+                  <a href="HW11.html" title="Go to International Volunteer Page">
+                    International Volunteer
+                  </a>
+                <a href = "publish_tutorial.html" 
+                title="Go to publish web tutorial">Publish Tutorial</a>
+                <a href = "CSS_Concept.html"
+                title="Go to CSS concept web page">HW3</a>  
+                <a href="HW8.html" title="Go to making a story by yourself">
+                  Creating story
+              </a>               
+              <a href="HW9.html" title="Go to Art Sildeshow Page">
+                Art Slideshow
+              </a>
+                </div>
+              </div>
+            </li>
+            <li><a href="HW12.html" title="Go to Welcome World Cup 2022 Page">
+              Welcome World Cup 2022
+            </a></li>
+               <li><a href="index.html"
+                title="Go to main page">Home</a></li>
+            </ul>
+            </nav>
+        <main>
+        <h1 class="h1_HW3"> CSS Basic Concept</h1>
+        <p>This website will be focused on some basic concept, such as: Box Model
+            Hover, Contrast Color, Position, and Shadow. Let start it with first
+            part, Box Model.
+        </p>
+        <section>
+            <h2>Box Model</h2>
+            <p>In Box Model, we have total 4 part that include margin, border,
+                padding, and content</p>
+            <div class="box_model"><img src="image/box_model_opt.png"
+                alt="pattern of box model"> </div>
+            <h3>Padding Property</h3>
+            <p>Below is three different pattern of padding</p>
+            <div class="padding">
+            <div class="first_padding">
+                <p>In this padding, all of side size is the same.
+                I set 50px for all side. As you
+                can see, four side distance between word and border
+                are the same. And detail of this border is below:
+            </p>
+                <ul>
+                    <li>Border Stye: dashed</li>
+                    <li>Width: 350px</li>
+                    <li>Height: Auto</li>
+                    <li>Background Color: #a2c4db</li>
+                </ul>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec placerat lorem id enim blandit, 
+                    sit amet mollis justo pellentesque. 
+                    Proin laoreet mi ac leo bibendum vehicula. 
+                    Praesent leo est, placerat vel erat vel, scelerisque 
+                    lobortis lectus. Pellentesque habitant morbi tristique 
+                    senectus et netus et malesuada fames ac turpis egestas. 
+                    Duis lacinia ante ut diam varius imperdiet. 
+                    Sed ullamcorper fringilla augue in lacinia. 
+                    Quisque aliquet ex nisi, 
+                    id facilisis sapien mattis quis. Sed ut libero a mauris 
+                    euismod malesuada sit amet sit amet sem. Quisque dapibus 
+                    purus vitae libero ultrices, eu auctor nibh aliquet. 
+                    Aenean auctor nibh a diam laoreet fermentum eu in elit. 
+                    Ut vitae egestas sem. Cras orci nibh, vulputate quis nibh 
+                    sit amet, hendrerit varius velit. Etiam dictum sit amet 
+                    ipsum ut consequat. Suspendisse hendrerit nunc a sagittis 
+                    imperdiet. Cras aliquam ante vitae tincidunt volutpat. 
+                    Suspendisse finibus orci id ligula vulputate, 
+                    quis finibus tortor pharetra.
+                </p>
+                
+            </div>
+            <div class = "second_padding">
+                <p>In this padding, top and bottom has the same size that is 20px.
+                    Left and right side are 100px. Because I the size for left and
+                    right i are higher than top and bottom, so you can see the 
+                    distance is different, especcially the left and right between
+                    word and border is wider. Detail of this border is below:  
+                </p>
+                    <ul>
+                        <li>Border Style: Solid</li>
+                        <li>Width: 350px</li>
+                        <li>Height: Auto</li>
+                        <li>Background Color: #c4dec1</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec placerat lorem id enim blandit, 
+                    sit amet mollis justo pellentesque. 
+                    Proin laoreet mi ac leo bibendum vehicula. 
+                    Praesent leo est, placerat vel erat vel, scelerisque 
+                    lobortis lectus. Pellentesque habitant morbi tristique 
+                    senectus et netus et malesuada fames ac turpis egestas. 
+                    Duis lacinia ante ut diam varius imperdiet. 
+                    Sed ullamcorper fringilla augue in lacinia. 
+                    Quisque aliquet ex nisi, 
+                    id facilisis sapien mattis quis. Sed ut libero a mauris 
+                    euismod malesuada sit amet sit amet sem. Quisque dapibus 
+                    purus vitae libero ultrices, eu auctor nibh aliquet. 
+                    Aenean auctor nibh a diam laoreet fermentum eu in elit. 
+                    Ut vitae egestas sem. Cras orci nibh, vulputate quis nibh 
+                    sit amet, hendrerit varius velit. Etiam dictum sit amet 
+                    ipsum ut consequat. Suspendisse hendrerit nunc a sagittis 
+                    imperdiet. Cras aliquam ante vitae tincidunt volutpat. 
+                    Suspendisse finibus orci id ligula vulputate, 
+                    quis finibus tortor pharetra.
+                    </p>
+                   
+            </div>
+    
+            <div class ="third_padding">
+                <p>In this padding, four side have different side. Specifically, 
+                top is 30, right is 600px, bottom is 80px, left is 20px. Detail
+                this border below: </p>
+                <ul>
+                    <li>Border Style: Groove</li>
+                    <li>Width: 350px </li>
+                    <li>Height: Auto</li>
+                    <li>Background Color: #e3c4ba</li>
+                </ul>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec placerat lorem id enim blandit, 
+                    sit amet mollis justo pellentesque. 
+                    Proin laoreet mi ac leo bibendum vehicula. 
+                    Praesent leo est, placerat vel erat vel, scelerisque 
+                    lobortis lectus. Pellentesque habitant morbi tristique 
+                    senectus et netus et malesuada fames ac turpis egestas. 
+                    Duis lacinia ante ut diam varius imperdiet. 
+                    Sed ullamcorper fringilla augue in lacinia. 
+                    Quisque aliquet ex nisi, 
+                    id facilisis sapien mattis quis. Sed ut libero a mauris 
+                    euismod malesuada sit amet sit amet sem. Quisque dapibus 
+                    purus vitae libero ultrices, eu auctor nibh aliquet. 
+                    Aenean auctor nibh a diam laoreet fermentum eu in elit. 
+                    Ut vitae egestas sem. Cras orci nibh, vulputate quis nibh 
+                    sit amet, hendrerit varius velit. Etiam dictum sit amet 
+                    ipsum ut consequat. Suspendisse hendrerit nunc a sagittis 
+                    imperdiet. Cras aliquam ante vitae tincidunt volutpat. 
+                    Suspendisse finibus orci id ligula vulputate, 
+                    quis finibus tortor pharetra.
+                </p>
+                
+            </div>
+            </div>
+            <h3>Margin property</h3>
+            <div class ="first_margin">
+                <p>In this margin, margin left is default, and padding is the
+                    same with the first padding.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec placerat lorem id enim blandit, 
+                    sit amet mollis justo pellentesque. 
+                    Proin laoreet mi ac leo bibendum vehicula. 
+                    Praesent leo est, placerat vel erat vel, scelerisque 
+                    lobortis lectus. Pellentesque habitant morbi tristique 
+                    senectus et netus et malesuada fames ac turpis egestas. 
+                    Duis lacinia ante ut diam varius imperdiet. 
+                    Sed ullamcorper fringilla augue in lacinia. 
+                    Quisque aliquet ex nisi, 
+                    id facilisis sapien mattis quis. Sed ut libero a mauris 
+                    euismod malesuada sit amet sit amet sem. Quisque dapibus 
+                    purus vitae libero ultrices, eu auctor nibh aliquet. 
+                    Aenean auctor nibh a diam laoreet fermentum eu in elit. 
+                    Ut vitae egestas sem. Cras orci nibh, vulputate quis nibh 
+                    sit amet, hendrerit varius velit. Etiam dictum sit amet 
+                    ipsum ut consequat. Suspendisse hendrerit nunc a sagittis 
+                    imperdiet. Cras aliquam ante vitae tincidunt volutpat. 
+                    Suspendisse finibus orci id ligula vulputate, 
+                    quis finibus tortor pharetra.
+                </p>
+            </div>
+            <div class ="second_margin">
+                <p>In this margin, margin left is 50px, and padding is the
+                    same with the second padding. </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Donec placerat lorem id enim blandit, 
+                    sit amet mollis justo pellentesque. 
+                    Proin laoreet mi ac leo bibendum vehicula. 
+                    Praesent leo est, placerat vel erat vel, scelerisque 
+                    lobortis lectus. Pellentesque habitant morbi tristique 
+                    senectus et netus et malesuada fames ac turpis egestas. 
+                    Duis lacinia ante ut diam varius imperdiet. 
+                    Sed ullamcorper fringilla augue in lacinia. 
+                    Quisque aliquet ex nisi, 
+                    id facilisis sapien mattis quis. Sed ut libero a mauris 
+                   euismod malesuada sit amet sit amet sem. Quisque dapibus 
+                    purus vitae libero ultrices, eu auctor nibh aliquet. 
+                   Aenean auctor nibh a diam laoreet fermentum eu in elit. 
+                    Ut vitae egestas sem. Cras orci nibh, vulputate quis 
+                    nibh sit amet, hendrerit varius velit. Etiam dictum 
+                    sit amet ipsum ut consequat. Suspendisse hendrerit nunc
+                    a sagittis imperdiet. Cras aliquam ante 
+                    vitae tincidunt volutpat. 
+                    Suspendisse finibus orci id ligula vulputate, 
+                    quis finibus tortor pharetra.
+                    </p>
+            </div>
+            <div class ="third_margin">
+                <p>In this margin, margin left is 140px, and padding is the same
+                    with the third padding. </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Donec placerat lorem id enim blandit, 
+                        sit amet mollis justo pellentesque. 
+                        Proin laoreet mi ac leo bibendum vehicula. 
+                        Praesent leo est, placerat vel erat vel, scelerisque 
+                        lobortis lectus. Pellentesque habitant morbi tristique 
+                        senectus et netus et malesuada fames ac turpis egestas. 
+                        Duis lacinia ante ut diam varius imperdiet. 
+                        Sed ullamcorper fringilla augue in lacinia. 
+                        Quisque aliquet ex nisi, 
+                        id facilisis sapien mattis quis. Sed ut libero a mauris 
+                        euismod malesuada sit amet sit amet sem. 
+                        Quisque dapibus 
+                        purus vitae libero ultrices, eu auctor nibh aliquet. 
+                        Aenean auctor nibh a diam laoreet fermentum eu in elit. 
+                        Ut vitae egestas sem. Cras orci nibh, vulputate quis 
+                        nibh sit amet, hendrerit varius velit. Etiam dictum 
+                        sit amet ipsum ut consequat. Suspendisse hendrerit nunc
+                        a sagittis imperdiet. Cras aliquam ante 
+                        vitae tincidunt volutpat. 
+                        Suspendisse finibus orci id ligula vulputate, 
+                        quis finibus tortor pharetra.
+                    </p>
+            </div>
+        </section>
+        <section>
+            <h2>Changing Style Hover</h2>
+            <div class="first_hover">
+                <p>This border don't make any change for hover</p>
+            </div>
+            <div class="second_hover">
+                <p>This border change background color, 
+                    and transition is 4s</p>
+            </div>
+            <div class="third_hover">
+                <p>This border change background color, 
+                    and transition is 2s</p>
+            </div>
+        </section>
+        <section>
+            <h2>Color Contrast</h2>
+            <table>
+                <tr>
+                    <th>Text</th>
+                    <th>Background color</th>
+                    <th>Text color</th>
+                    <th>Contrast ratio</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td class="first_text">Donec imperdiet semper nisi, in blandit est laoreet
+                        quis. Nullam aliquet tincidunt ex, finibus faucibus 
+                        augue viverra eget. Curabitur vulputate lorem vitae 
+                        viverra ullamcorper. Vestibulum a tortor vitae nisi 
+                        maximus efficitur. Quisque non tellus sit amet quam 
+                        luctus lacinia ac quis magna. Cras maximus ultricies 
+                        mauris, id eleifend leo luctus vel. Quisque 
+                        sollicitudin, augue et sodales malesuada, 
+                        est felis ornare orci, vitae feugiat turpis risus 
+                        nec quam. In hac habitasse platea dictumst. 
+                        Integer elementum semper sem in varius. Fusce eget 
+                        purus vitae eros pretium viverra ut at nibh. 
+                        Nam magna mauris, porta at ex ac, 
+                        aliquam hendrerit magna.</td>
+                        <td>#524b3c</td>
+                        <td>#f08e89</td>
+                        <td>3.67:1</td>
+                        <td>None</td>
+                </tr>
+                <tr>
+                    <td class="second_text">
+                        Donec imperdiet semper nisi, in blandit est laoreet
+                        quis. Nullam aliquet tincidunt ex, finibus faucibus 
+                        augue viverra eget. Curabitur vulputate lorem vitae 
+                        viverra ullamcorper. Vestibulum a tortor vitae nisi 
+                        maximus efficitur. Quisque non tellus sit amet quam 
+                        luctus lacinia ac quis magna. Cras maximus ultricies 
+                        mauris, id eleifend leo luctus vel. Quisque 
+                        sollicitudin, augue et sodales malesuada, 
+                        est felis ornare orci, vitae feugiat turpis risus 
+                        nec quam. In hac habitasse platea dictumst. 
+                        Integer elementum semper sem in varius. Fusce eget 
+                        purus vitae eros pretium viverra ut at nibh. 
+                        Nam magna mauris, porta at ex ac, 
+                        aliquam hendrerit magna.
+                    </td>
+                    <td>#E0F7FA</td>
+                    <td>#364436</td>
+                    <td>9.25:1</td>
+                    <td>AAA</td>
+                </tr>
+                <tr>
+                    <td class="third_text">
+                        Donec imperdiet semper nisi, in blandit est laoreet
+                        quis. Nullam aliquet tincidunt ex, finibus faucibus 
+                        augue viverra eget. Curabitur vulputate lorem vitae 
+                        viverra ullamcorper. Vestibulum a tortor vitae nisi 
+                        maximus efficitur. Quisque non tellus sit amet quam 
+                        luctus lacinia ac quis magna. Cras maximus ultricies 
+                        mauris, id eleifend leo luctus vel. Quisque 
+                        sollicitudin, augue et sodales malesuada, 
+                        est felis ornare orci, vitae feugiat turpis risus 
+                        nec quam. In hac habitasse platea dictumst. 
+                        Integer elementum semper sem in varius. Fusce eget 
+                        purus vitae eros pretium viverra ut at nibh. 
+                        Nam magna mauris, porta at ex ac, 
+                        aliquam hendrerit magna.
+                    </td>
+                    <td>#360C20</td>
+                    <td>#917FD7</td>
+                    <td>5.05:1</td>
+                    <td>AA</td>
+                </tr>
+                <tr>
+                    <td class="fourth_text">
+                        Donec imperdiet semper nisi, in blandit est laoreet
+                        quis. Nullam aliquet tincidunt ex, finibus faucibus 
+                        augue viverra eget. Curabitur vulputate lorem vitae 
+                        viverra ullamcorper. Vestibulum a tortor vitae nisi 
+                        maximus efficitur. Quisque non tellus sit amet quam 
+                        luctus lacinia ac quis magna. Cras maximus ultricies 
+                        mauris, id eleifend leo luctus vel. Quisque 
+                        sollicitudin, augue et sodales malesuada, 
+                        est felis ornare orci, vitae feugiat turpis risus 
+                        nec quam. In hac habitasse platea dictumst. 
+                        Integer elementum semper sem in varius. Fusce eget 
+                        purus vitae eros pretium viverra ut at nibh. 
+                        Nam magna mauris, porta at ex ac, 
+                        aliquam hendrerit magna.
+                    </td>
+                    <td>#D03985</td>
+                    <td>#F2F61E</td>
+                    <td>3.9:1</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td class="fifth_text">
+                        Donec imperdiet semper nisi, in blandit est laoreet
+                        quis. Nullam aliquet tincidunt ex, finibus faucibus 
+                        augue viverra eget. Curabitur vulputate lorem vitae 
+                        viverra ullamcorper. Vestibulum a tortor vitae nisi 
+                        maximus efficitur. Quisque non tellus sit amet quam 
+                        luctus lacinia ac quis magna. Cras maximus ultricies 
+                        mauris, id eleifend leo luctus vel. Quisque 
+                        sollicitudin, augue et sodales malesuada, 
+                        est felis ornare orci, vitae feugiat turpis risus 
+                        nec quam. In hac habitasse platea dictumst. 
+                        Integer elementum semper sem in varius. Fusce eget 
+                        purus vitae eros pretium viverra ut at nibh. 
+                        Nam magna mauris, porta at ex ac, 
+                        aliquam hendrerit magna.
+                    </td>
+                    <td>#7A2CC9</td>
+                    <td>#39EABE</td>
+                    <td>4.51:1</td>
+                    <td>AA</td>
+                </tr>
+                
+        </table>
+        </section>
+        <section class="position">
+            <h2>CSS Position</h2>
+            <div class="relative_position">
+                <img src="image/relative_position_opt.jpg"
+                alt="This image is about css logo"
+                width="400" height="289">
+                <p> This image above is set relative position, with the left is
+                     150px, and bottom is 100px.
+                     And, the image move away from the original position.</p>
+                
+            </div>
+            <div class="absolute_position">
+                <img src="image/absolute_position_opt.png"
+                alt="This image contain css logo"
+                width="400" height="267">
+                <p>This image above is set by absolute position, normally 
+                    this image will move away from the top webpage. But in this
+                     case, because I set this position section is relative, so 
+                    it will be move away from this section,"CSS Position". 
+                    With the left is 600px, and the bottom is 40px.
+                </p>
+            </div>
+            <div class ="fix_position">
+                <img src="image/fix_position_opt.png"
+                alt="This image about CSS is fun"
+                width="300" height="126">
+                <p>This image above is set by fixed position, 
+                </p>
+                <p>it is will stay 
+                    in the same place, even if we scroll the page.
+                </p>
+                <P>With right is 0px, and top is 0px</P>
+
+            </div>
+        </section>
+        <section>
+            <h2>Shadow</h2>
+            <h3>Horizontal Property</h3>
+            <p>Horizontal mean how large the shadow appear on the right with 
+                positive value. With negative value, the shadow appear on the
+                 left</p>
+                <div class="small_horizontal_shadow">
+                    <p>In this box horizontal property is 20px.
+                    </p>
+                </div>
+                <div class="large_horizontal_shadow">
+                    <p>
+                        In this box horizontal property is 80px. 
+                    </p>
+                </div>
+                <h3>Vertical Property</h3>
+                <p>Vertical mean how large the shadow appear on the bottom with 
+                    positive value. With negative value, the shadow appear on 
+                    the top</p>
+                <div class= "small_vertical">
+                    <p>In this text, the vertical shadow is 10px</p>
+                </div>
+                <div class="large_vertical">
+                    <p>In this text, the vertical shadow is 50px</p>
+                </div>
+                <h3>Blur Property</h3>
+                <p>The blur property is higher number, the more blured shadow.
+                    Not application with the negative number. </p>
+                <div class = "small_blur">
+                    <p>In this text, the blur is 5px</p>
+                </div>
+                <div class ="large_blur">
+                    <p>In this text, the blur is 25px</p>
+                </div>
+        </section>
+    </main>
+        <footer>
+            <div class="row">
+            <div class="col-7">
+              <section>
+              <h3>
+                The Best Online Source and Necessary Tool for Learning HTML and CSS
+              </h3>
+              <a href="https://css-tricks.com/"
+              title="Go to CSS tricks page">
+                <img src="image/css-trick.png"
+                alt="Icon of CSS tricks">
+              </a>
+              <a href="https://www.w3schools.com/"
+              title="Go to W3School page">
+            <img src="image/w3school.png"
+            alt="Icon of W3School">
+            </a>
+           <a href="https://digital.com/tools/html-cheatsheet/"
+           title="Go to HTML Cheat Sheet Page">
+           <img src="image/html_cheatsheet.png"
+           alt="Icon of HTML Cheat Sheet">
+          </a>
+          <a href="https://www.codecademy.com/"
+          title="Go to Codecademy Page">
+          <img src="image/codeacademy.png"
+          alt="Icon of Codecademy">
+          </a>
+        </section>
+          </div>
+          <div class="contact">
+          <div class="col-5">
+            <h3>Contact Me</h3>
+            <h4>Gmail: quingo@mail.weber.edu</h4>
+          </div>
+        </div>
+            </div>
+         
+          </footer>
+        <div class="icon">Icons made by <a href="https://www.freepik.com" 
+            title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+             title="Flaticon">www.flaticon.com</a></div>
+    </body>
+</html>

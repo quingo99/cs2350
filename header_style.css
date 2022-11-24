@@ -1,0 +1,354 @@
+
+header{
+    background: #eaf0f6 url("image/book_flying.png")  ;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+header p{
+    width: 110px;
+    padding-top: 30px;
+    margin: auto;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #eaf0f6;
+    color: #2a6d6d;
+    line-height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a, nav .button{
+    border-top: solid white 2px;
+    display: block;
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+    background-color: #eaf0f6;
+    width: 100%;
+}
+nav .button{
+    line-height: 0px;
+    border-top: 2px solid white;
+    height: 38px;
+    padding-top: 10px;
+}
+
+nav a, nav a:link, nav a:visited, nav .button{
+    display: block;
+    color: #234D4D;
+    text-decoration: none;
+}
+
+a, a:link, a:visited{
+    color: #273d3d;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: 2s background-color ;
+}
+nav a:hover, nav .button:hover{
+    color: #61B8B8;
+    background-color: #B7D4F0;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: #B7D4F0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    padding: 6px;
+    color: #273d3d;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #345353;
+}
+.h1_HW3{
+    padding-bottom: 100px;
+
+}
+.image_link {
+    font-size: small;
+    padding-top: 5px;
+}
+.main_index{
+    position: relative;
+    bottom: 1130px;
+    margin-bottom: 200px;
+}
+main section{
+    border: 1px solid #dfe4e9;
+    background-color: #dfe4e9;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 6px 6px 6px #9b9da0, -6px -6px 6px #9b9da0;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 4px 82px;
+    transition:box-shadow 1s ;
+}
+h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+main section img{
+    max-width: 70%;
+    height: auto;
+}
+main section:hover{
+    box-shadow: 6px 6px 16px #949597, -6px -6px 16px #949597;
+  
+}
+.aside-1{
+    margin-top: 50px;
+    position: relative;
+    top:1450px;
+}
+aside section img{
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 100px;
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  height: auto;
+
+}
+aside section h4{
+    margin-bottom: 200px;
+}
+.second_book{
+    margin-bottom: 285px;
+}
+aside hr{
+    margin-bottom: 80px;
+    border: #586363 solid 2px;
+    border-radius: 20px;
+    background-color: #a5b6b6;
+    width: 100%;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-color: #6e9c9c;
+    color: #172b2b;
+}
+footer section{
+    margin: auto;
+    text-align: center;
+}
+/*rating*/
+.side {
+    float: left;
+    width: 40%;
+    margin-top:20px;
+  }
+  .middle {
+    margin-top:20px;
+    float: left;
+    width: 50%;
+   
+}
+  .right {
+    text-align: right;
+    width: 10%;
+  }
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  .bar-5 {width: 68%; height: 18px; background-color: #383a3b;}
+  .bar-4 {width: 60%; height: 18px; background-color: #383a3b;}
+  .bar-3 {width: 80%; height: 18px; background-color: #383a3b;}
+  .bar-2 {width: 80%; height: 18px; background-color: #383a3b;}
+  .bar-1 {width: 100%; height: 18px; background-color: #383a3b;}
+  @media only screen and (min-width: 600px){
+    .aside-1{
+        top:1550px;
+    }
+  }
+
+@media only screen and (min-width: 700px)
+{
+    header{
+        background: #eaf0f6 url("image/book_flying.png") repeat-x top;
+    }
+    header p{
+        border: #eaf0f6 solid 1px ;
+        width: 340px;
+        height: 140px;
+        padding-top: 60px;
+        margin: auto;
+        font-size: 1.8em;
+        text-align: center;
+        background-color: #eaf0f6;
+        line-height: 70px;
+        color: #234D4D;
+    }
+   
+    nav{
+      border-bottom: 2px solid #383a3b ;
+        margin-top: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #eaf0f6;
+    }
+   
+    nav li{ 
+        border: 2px solid #383a3b;
+        padding-top: 0;
+        display: block;
+        width: 33.3%;
+        height: 60px;
+       float: left;
+       margin-bottom: 15px;
+       
+    }
+    nav a{
+        height: 55px;
+    }
+    
+    nav .button{
+        height: 55px;
+    }
+  
+   nav .dropdown-content a{
+       top:0;
+   }
+
+    .h1_HW3{
+        padding-bottom: 10px;
+    }
+    .main_index{
+        bottom:0;
+        margin-bottom: 5px;
+    }
+    main section img{
+    max-width: 100%;
+    height: auto;
+}
+    .aside-1{
+        top: 0;
+        margin-top: 2px;
+    }
+    aside section img{
+        margin-right: 12px;
+        margin-bottom: 5px;
+    }
+    aside section h4{
+        margin-bottom: 50px;
+    }
+    .second_book{
+        margin-bottom: 50px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    
+    [class*="col-"] {
+        float: left;
+        padding: 15px;       
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+}
+@media only screen and (min-width: 1180px){
+    aside section h4{
+        margin-bottom: 200px;
+    }
+    .second_book{
+        margin-bottom: 285px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+}
+nav .button p{
+    margin-bottom: -25px;
+    height: 30px;
+    font-weight: bolder;
+    margin-top: 2px;
+}
+
+nav .dropdown-content{
+    position: absolute;
+    display: none;
+    width: 100%;
+  }
+  nav .dropdown{
+    position: relative;
+    
+  }
+  nav .dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #eaf0f6;
+    z-index: 2;
+  }
+.menu{
+    width: 28px;
+    height: 4px;
+    background-color: black;
+    margin: 5px auto;
+    margin-bottom: 0px;
+    
+  }
+
+  
+/*col and row*/
+/*
+* {
+    box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+   
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
